@@ -47,7 +47,7 @@ pearson = 0
 
 std = np.std(xyp_noProb, axis = 0)
 
-print(std)
+
 resultado = 1
 for x in std:
     resultado = resultado*x
